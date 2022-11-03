@@ -49,11 +49,11 @@
                                     <li class="menu-item has-sub">
                                         <a class="menu-link nav-link menu-toggle" href="javascript:void(0);">Utilities</a>
                                         <ul class="menu-sub menu-drop">
-                                            <li class="menu-item"><a class="menu-link nav-link" href="">Pure Swap</a></li>
-                                            <li class="menu-item"><a class="menu-link nav-link" href="">Pure Stak</a></li>
-                                            <li class="menu-item"><a class="menu-link nav-link" href="">Pure Exchange</a></li>
-                                            <li class="menu-item"><a class="menu-link nav-link" href="">Pure Profit Calculator</a></li>
-                                            <li class="menu-item"><a class="menu-link nav-link" href="">Pure Mobile Wallet</a></li>
+                                            <li class="menu-item"><a class="menu-link nav-link" target="_blank" href="http://dapp.purewallet.finance">Pure DAPP (WEB 3.0)</a></li>
+                                            <li class="menu-item"><a class="menu-link nav-link" target="_blank" href="http://purewallet.exchange">Pure Exchange</a></li>
+                                            <li class="menu-item"><a class="menu-link nav-link" target="_blank" href="http://stake.purewallet.finance">Pure Stake</a></li>
+                                            <li class="menu-item"><a class="menu-link nav-link" target="_blank" href="http://swap.purewallet.finance">Pure Swap</a></li>
+                                            <li class="menu-item"><a class="menu-link nav-link" target="_blank" href="http://swap.purewallet.finance">Pure Profit Calculator</a></li>
                                         </ul>
                                     </li>
                                     <li class="menu-item has-sub">
@@ -99,11 +99,11 @@
                                             </div>
                                             <div class="cpn-action">
                                                 <div class="cpn-btns">
-                                                    <a class="btn btn-grad" href="#">PURE DAPP (WEB 3.0)</a>
-                                                    <a class="btn btn-grad" href="#">PURE EXCHANGE (CEX)</a>
-                                                    <a class="btn btn-grad" href="#">PURE STAKE</a>
-                                                    <a class="btn btn-grad" href="#">PURE SWAP</a>
-                                                    <a class="btn btn-grad" href="#">PURE PROFIT CALCULATOR</a>
+                                                    <a class="btn btn-grad" href="http://dapp.purewallet.finance" target="_blank">PURE DAPP (WEB 3.0)</a>
+                                                    <a class="btn btn-grad" href="http://purewallet.exchange" target="_blank">PURE EXCHANGE (CEX)</a>
+                                                    <a class="btn btn-grad" href="http://stake.purewallet.finance" target="_blank">PURE STAKE</a>
+                                                    <a class="btn btn-grad" href="http://swap.purewallet.finance" target="_blank">PURE SWAP</a>
+                                                    <a class="btn btn-grad" href="http://calculator.purewallet.finance" target="_blank">PURE PROFIT CALCULATOR</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -239,16 +239,16 @@
                         <ul class="partner-list flex-lg-nowrap scroll1">
                             <li class="partner-logo"><img src="images/partners/1-A-ads.png" alt="A-ads"></li>
                             <li class="partner-logo"><img src="images/partners/2-coinzilla.png" alt="coinzilla"></li>
-                            <li class="partner-logo"><img src="images/partners/3-bscscan.png" alt="bscscan"></li>
-                            <li class="partner-logo"><img src="images/partners/4-poocoin.png" alt="poocoin"></li>
-                            <li class="partner-logo"><img src="images/partners/5-pancake-swap.png" alt="pancake-swap"></li>
-                            <li class="partner-logo"><img src="images/partners/6-pinksale.png" alt="pinksale"></li>
+                            <li class="partner-logo"><a href="https://bscscan.com/token/0xc3BcE47886e56316B2A5A4b2C926561AE94039A2" target="_blank"><img src="images/partners/3-bscscan.png" alt="bscscan"></a></li>
+                            <li class="partner-logo"><a href="https://poocoin.app/tokens/0xc3bce47886e56316b2a5a4b2c926561ae94039a2" target="_blank"><img src="images/partners/4-poocoin.png" alt="poocoin"></a></li>
+                            <li class="partner-logo"><a href="https://pancakeswap.finance/swap?outputCurrency=0xc3BcE47886e56316B2A5A4b2C926561AE94039A2" target="_blank"><img src="images/partners/5-pancake-swap.png" alt="pancake-swap"></a></li>
+                            <li class="partner-logo"><a href="https://www.pinksale.finance/launchpad/0x22c52aB855Bafb1c3F24CeF02cf966Ae26979827?chain=BSC" target="_blank"><img src="images/partners/6-pinksale.png" alt="pinksale"></a></li>
                             <li class="partner-logo"><img src="images/partners/8-worldcoin-index.png" alt="worldcoin-index"></li>
                             <li class="partner-logo"><img src="images/partners/9-coinmarket cap.png" alt="coinmarket cap"></li>
                             <li class="partner-logo"><img src="images/partners/10-coin-gecho.png" alt="coin-gecho"></li>
                             <li class="partner-logo"><img src="images/partners/17-metamask.png" alt="metamask"></li>
                             <li class="partner-logo"><img src="images/partners/21-trust-wallet.png" alt="trust-wallet"></li>
-                            <li class="partner-logo"><img src="images/partners/22 Desktools.png" alt="Desktools"></li>
+                            <li class="partner-logo"><a href="https://www.dextools.io/app/en/bnb/pair-explorer/0xc21a1a874cb9c5c6492fd3c2d790f7d2e3f15843" target="_blank"><img src="images/partners/22 Desktools.png" alt="Desktools"></a></li>
                         </ul>
                     </div>
                     <!-- Block @e -->
@@ -612,11 +612,11 @@
                                                 <h4 class="title title-md">Read the Full Whitepaper & Check Others Documents As Well.</h4>
                                                 <p>Pure Is a Unique Project with a good combination of App, Dapp, CEX & DEX. Read The Full Whitepaper to Know More Details. Stay With Us For The Best Experience!</p>
                                                 <ul class="btn-grp gutter-30px gutter-vr-20px">
-                                                    <li><a href="https://purewallet.gitbook.io/whitepaper/" class="btn btn-grad" target="_blank">Whitepaper</a></li>
+                                                    <li><a href="https://whitepaper.purewallet.finance" class="btn btn-grad" target="_blank">Whitepaper</a></li>
                                                     <li><a href="https://github.com/cyberscope-io/audits/blob/main/pure/audit.pdf" class="btn btn-grad" target="_blank">Audit Report</a></li>
                                                     <li><a href="https://github.com/cyberscope-io/kyc/blob/main/pure/kyc.png" class="btn btn-grad" target="_blank">KYC Certificate</a></li>
                                                     <li><a href="https://t.me/TrynosTokenTerminal/459" class="btn btn-grad" target="_blank">SAFU Report</a></li>
-                                                    <li><a href="https://github.com/PureWallet1/Site/blob/main/contract" class="btn btn-grad" target="_blank">Github Link</a></li>
+                                                    <li><a href="https://github.com/PureWallet1/mainsite/blob/main/contract" class="btn btn-grad" target="_blank">Github Link</a></li>
                                                     <li><a href="https://purewallet.gitbook.io/whitepaper/certification" class="btn btn-grad" target="_blank">Company Info</a></li>
                                                 </ul>
                                             </div>
@@ -671,10 +671,10 @@
                             
                             <div class="col-lg-12">
                                 <ul class="menu-btns">
-                                    <li><a href="https://purewallet.gitbook.io/whitepaper/pure-dapp" target="_blank" class="btn btn-md btn-auto btn-grad no-change"><span>Dapp Dashboard</span></a></li>
-                                    <li><a href="https://purewallet.gitbook.io/whitepaper/pure-dapp" target="_blank" class="btn btn-md btn-auto btn-grad no-change"><span>Stake</span></a></li>
-                                    <li><a href="https://purewallet.gitbook.io/whitepaper/pure-dapp" target="_blank" class="btn btn-md btn-auto btn-grad no-change"><span>SWAP</span></a></li>
-                                    <li><a href="https://purewallet.gitbook.io/whitepaper/pure-dapp" target="_blank" class="btn btn-md btn-auto btn-grad no-change"><span>Profit Calculator</span></a></li>
+                                    <li><a href="https://dapp.purewallet.finance" target="_blank" class="btn btn-md btn-auto btn-grad no-change"><span>Dapp Dashboard</span></a></li>
+                                    <li><a href="https://stake.purewallet.finance" target="_blank" class="btn btn-md btn-auto btn-grad no-change"><span>Stake</span></a></li>
+                                    <li><a href="https://swap.purewallet.finance" target="_blank" class="btn btn-md btn-auto btn-grad no-change"><span>SWAP</span></a></li>
+                                    <li><a href="https://calculator.purewallet.finance" target="_blank" class="btn btn-md btn-auto btn-grad no-change"><span>Profit Calculator</span></a></li>
                                 </ul>
                             </div>
 
@@ -691,6 +691,8 @@
                             <div class="col-lg-7 order-lg-last">
                                 <div class="nk-block-img edge-r1 pb-4 pb-lg-0">
                                     <img src="images/app-screens/laptop-a.png" alt="app">
+
+                                    <a href="https://purewallet.exchange" class="btn btn-grad" target="_blank">PURE EXCHANGE</a>
                                 </div>
                             </div>
                             <div class="col-lg-5">
@@ -863,6 +865,7 @@
                                             <li><a href="https://purewallet.gitbook.io/whitepaper/privacy-policy" target="_blank">Privacy Policy</a></li>
                                             <li><a href="https://purewallet.gitbook.io/whitepaper/" target="_blank">Whitepaper</a></li>
                                             <li><a href="https://purewallet.gitbook.io/whitepaper/certification" target="_blank">Certificates</a></li>
+                                            <li><a href="company-information.pdf" target="_blank">Company Info</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -872,12 +875,12 @@
                                     <h6 class="wgs-title">Utilities</h6>
                                     <div class="wgs-body">
                                         <ul class="wgs-links">
-                                            <li><a href="#">Pure Swap</a></li>
-                                            <li><a href="#">Pure Stake</a></li>
-                                            <li><a href="#">Pure Exchange</a></li>
-                                            <li><a href="#">Pure Wallet (Android)</a></li>
-                                            <li><a href="#">Pure Wallet (IOS)</a></li>
-                                            <li><a href="#">Pure Profit Calculator</a></li>
+                                            <li><a target="_blank" href="https://swap.purewallet.finance">Pure Swap</a></li>
+                                            <li><a target="_blank" href="https://stake.exchange">Pure Stake</a></li>
+                                            <li><a target="_blank" href="https://purewallet.exchange">Pure Exchange</a></li>
+                                            <li><a target="_blank" href="https://purewallet.purewallet.finance">Pure Wallet (Android)</a></li>
+                                            <li><a target="_blank" href="#">Pure Wallet (IOS)</a></li>
+                                            <li><a target="_blank" href="https://calculator.purewallet.finance">Pure Profit Calculator</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -905,6 +908,14 @@
                                         </a>
                                         <p>Copyright &copy; 2022 PURE Wallet. <br>All rights reserved. </p>
                                     </div>
+
+                                    <p>
+                                        Company Information:
+                                        Company Name: PURE WALLET FINANCE LTD
+                                        Company Number: 14458199
+                                        Registered Office Address: 2nd Floor College House, 17 King Edwards Road, RUISLIP, London, HA4 7AE, UNITED KINGDOM
+                                        Company Email: support@purewallet.finance
+                                    </p>
                                 </div>
                             </div><!-- .col -->
                         </div><!-- .row -->
