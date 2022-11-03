@@ -1,0 +1,12 @@
+{
+    "rpcUrl": "https://bsc-dataseed.binance.org/",
+    "token": "0xc3BcE47886e56316B2A5A4b2C926561AE94039A2",
+    "router": "0x10ED43C718714eb63d5aA57B78B54704E256024E",
+    "wbnb": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
+    "busd": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
+    "dead": "0x000000000000000000000000000000000000dEaD",
+    "marketingwallet": "0xd02FE450AebE26c43DA6DEB7a3E2Fb15F2Cd2446",
+    "treasurywallet": "0xbc00dfa23bb18ed880e1ab712a5ffefa9e3a64ed",
+    "pool": "0xc21a1a874cb9c5c6492fd3c2d790f7d2e3f15843",
+    "stakingAddress": "0x46881F36b171C75758ce96a4F14CFE7CCa4d8C10"
+}

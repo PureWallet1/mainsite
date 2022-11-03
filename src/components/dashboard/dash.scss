@@ -1,0 +1,173 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+    
+}
+
+.inner_block1{
+    background:#3C71A5 ;
+    border:0.1px solid rgba(51, 156, 238, 0.15)
+
+}
+
+.block1{
+    width: 98% !important;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right:1% !important;
+    justify-content: space-between;
+    margin-left: 1% !important;
+}
+
+.inner_block1{
+    color: #fff;
+    width: 32% !important;
+    padding: 20px 0;
+    margin-top: 20px;
+    border-radius: 3px;
+    transition: all 0.3s ease-in-out;
+}
+
+.inner_block1:hover{
+    transform: scale(1.03);
+    background:#339CEE ;
+
+}
+
+.block2{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px;
+}
+
+.card_title{
+    h2{
+        font-size: 22px ;
+    }
+}
+
+.inner_block2{
+width: 48%;
+border-radius: 3px;
+margin-left: 1%;
+margin-right: 1%;
+background:#3C71A5 ;
+border:0.1px solid rgba(51, 156, 238, 0.15);
+margin-top:1.3rem;
+padding: 20px;
+transition: all 0.3s ease-in-out;
+}
+
+
+.inner_block2:hover{
+    transform: scale(1.03);
+    background:#339CEE ;
+
+}
+
+
+.block3{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px;
+}
+
+.inner_block3{
+width: 31.33%;
+border:1px solid rgb(98, 116, 94);
+border-radius: 10px;
+margin-left: 1%;
+margin-right: 1%;
+margin-top:1.3rem;
+padding: 20px;
+}
+
+
+
+#vertical-tabpanel-0{
+    width: 80%;
+}
+
+.dashboard-card{
+    text-align: center;
+
+
+    .card_title{
+        h2{
+            color: hsla(0,0%,100%,1);
+            font-weight:500;
+            padding: 3px 0;
+        }
+    }
+
+
+    .card_value{
+        h2{
+            color: #fff;
+            font-size: 1.5rem;
+            font-weight: 700;
+        }
+    }
+
+}
+
+
+
+
+@media (max-width:1024px) {
+    #vertical-tabpanel-0{
+        width: 100%;
+    }
+
+    .inner_block1{
+        color: #fff;
+        width: 50%;
+        padding: 13px 0;
+    }
+}
+
+
+@media (max-width:600px){
+    .inner_block1{
+        color: #fff;
+        width: 100%;
+        padding: 13px 0;
+    }
+
+    .inner_block2{
+        width: 100%;
+    }
+
+    .inner_block3{
+        width: 100%;
+    }
+       .card_title{
+        h2{
+            font-size: 20px;
+        }
+        padding: 10px !important;
+
+    }
+}
+
+@media (max-width:500px){
+    .inner_block1{
+        width: 100% !important;
+    }
+
+
+
+}
+
+
+.card_value h2{
+    color: #fff !important; 
+}

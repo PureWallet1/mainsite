@@ -1,0 +1,544 @@
+#headlessui-disclosure-panel-2, #headlessui-disclosure-panel-6{
+    height: 100vh !important;
+    position: fixed;
+    background: #12151F;
+    width: 70% !important;
+    top:0;
+    padding-top: 30px;
+    border-right: 2px solid rgba(255,255,255,0.5);
+    z-index: 10;
+    }
+
+    .cross_icon{
+        color: #fff;
+    }
+    
+    
+    .sidebar_logo{
+        display: flex !important;
+        width: 100% !important;
+        justify-content: space-between;
+        width: 100%;
+        align-items: center;
+        margin-right: 20px;
+    
+    }
+    
+    .buynowbutton:hover{
+        background: linear-gradient(to right, #5494D1 , #275380);
+        transition: all 1s ease;
+    
+    }
+    
+    .buynowbutton{
+display: none; 
+padding: 0.5rem; 
+border:1px solid #339CEE;
+padding-left: 1rem;
+font-size: 18px;
+background: none ;
+padding-right: 1rem; 
+transition-duration: 300ms; 
+font-weight: 600; 
+border-radius: 0.5rem; 
+transition: all 0.3s ease-in-out;
+color: #fff;
+
+
+
+.buynowbutton:hover{
+    background: linear-gradient(to right, #5494D1 , #275380);
+    transition: all 1s ease;
+
+}
+
+
+
+@media (min-width: 640px) { 
+  display: block; 
+ }
+
+    }
+
+
+    .buttonblock{
+    display: flex; 
+position: absolute; 
+top: 0;
+bottom: 0; 
+right: 0; 
+padding-right: 0.5rem; 
+display: flex; 
+justify-content: end;
+align-items: center;
+margin-right: 30px; 
+
+
+}
+
+.icon_nav, .swap_size{
+    transition: all 0.3s ease-in-out ;
+}
+
+.swap_size{
+    margin-top: 10px;
+
+}
+
+.icon_nav:hover{
+    color: #339CEE;
+    padding-left:15px;
+    position: relative;
+}
+
+
+.icon_nav{
+    width: 80% ;
+    justify-content: flex-start !important;
+    text-align: left;
+
+}
+
+.mobile_logo_disclose{
+    padding-left: 10px !important;
+    color: #fff !important;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+
+.mobile_logo{
+    padding-left: 10px !important;
+    color: #fff !important;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+@media(min-width:1224px){
+    .mobile_logo{
+        display: none;
+    }
+      
+}
+
+.extra_task h2{
+    font-size: 20px !important; 
+}
+
+.extra_task:hover{
+    padding-left: 30px !important;
+}
+
+@media (max-width:1000px) {
+    .icon_nav{
+        width: 100% !important;
+        justify-content: left !important;
+    }
+
+
+
+    .extra_task{
+        text-align: left;
+        margin-bottom: 10px !important;
+        justify-content: left !important;
+    }
+    .trui a{
+        justify-content: center !important;
+        text-align: center;
+    }
+}
+
+
+@media (max-width:1300px) {
+    .icon_nav{
+        width: 100% !important;
+    }
+
+    .extra_task{
+       justify-content: flex-start;
+    }
+
+    .trui a{
+        justify-content: left !important;
+    }
+}
+
+.mobile_logo_disclose{
+    display: block !important;
+}
+
+.extra_task{
+    padding-left: 20px !important;
+    width: 80% !important;
+    margin-bottom: 10px !important;
+
+}
+
+.logout{
+    color: #fff !important;
+    position: absolute;
+    bottom: -10px;
+    right: 13%;
+    transition: all 0.3s ease 2s;
+    cursor: pointer;
+    visibility: hidden;
+}
+
+.connect_button:hover + .logout{
+    visibility: visible;
+    transition: all 0.3s ease 0s;
+
+}
+
+
+.swap_size:hover{
+    color: #339CEE;
+
+}
+
+.connect_button{
+padding: 0.5rem; 
+padding-left: 1rem;
+padding-right: 1rem; 
+margin-left: 0.5rem; 
+transition-duration: 300ms; 
+font-weight: 600; 
+font-size: 18px;
+cursor: pointer;
+background: linear-gradient(to right, #5494D1 , #275380);
+color: #fff;
+border: 0;
+outline: none;
+height: 45px;
+border-radius: 0.5rem; 
+}
+
+
+
+a{
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+    .trui  {
+
+
+        a{
+            width: 100%;
+        justify-content: center;
+        display: flex;
+        }
+    }
+
+    .logoimg{
+        display: block; 
+        padding-left: 3rem; 
+        width: auto; 
+        height: 2.5rem; 
+        margin-left: 20px;
+        
+        
+        
+        @media (min-width: 1224px) { 
+          display: none; 
+          
+         }
+        
+            }
+
+    .menu{
+        width: 40px;
+        background: transparent;
+        outline: none;
+        border: none;
+        color: #fff;
+        margin-left: 15px;
+
+    }
+
+    .navbar{
+        height: 80px;
+    }
+
+    .panel{
+        position: fixed;
+    top: 0;
+    left: 0;
+}
+    
+
+    .logo_mob{
+        display: flex;
+    align-items: center;
+    height: 80px !important;
+    }
+
+    .logo-container{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .navbutton{
+        display: flex; 
+        position: absolute; 
+        top: 0;
+        bottom: 0; 
+        left: 0; 
+        display: flex; 
+        align-items: center; 
+        
+        
+        
+        @media (min-width: 1224px) { 
+          display: none; 
+         }
+        
+        
+            }
+
+.left_content{
+padding-top:50px !important;
+}
+
+
+    .swap_size{
+        font-size: 230px !important;
+    }
+    
+    
+    .icon_nav_main{
+        color: #cacaca;
+        font-size: 24px;
+    }
+
+    .socials{
+        display: flex;
+        margin: auto;
+        gap:20px;
+        margin-top:10% !important;
+
+    }
+
+    .icon_nav{
+        font-size: 20px !important;
+        font-weight: 500;
+        color: #fff;
+    }
+
+
+
+    .social_icon{
+        color: rgba($color: #fff, $alpha: 0.9);
+        font-size: 30px;
+        margin-top: 50px;
+        
+    }
+    
+    .disclose_logo{
+        margin-bottom: 30px;
+        margin-top: 20px;
+
+        img{
+            display: block !important;
+        }
+    }
+
+
+    @media(max-width:450px){
+
+        .logoimg_disclose{
+            padding-left: 1rem !important; 
+            
+        }
+
+        .icon_nav{
+            width: 80%!important;
+        }
+    }
+
+
+    #headlessui-disclosure-panel-2, .trui{
+        position: fixed;
+        top: 0;
+        left: 0;
+    }    
+    
+      .icon_nav{
+          display: flex;
+          gap:10px;
+          width: 65% !important;
+          margin: auto;
+          align-items: center !important;
+      }
+    
+    
+    .navbar{
+        position: sticky;
+        background: #12151F !important;
+        top: 0;
+        width: 100%;
+    }
+    
+
+
+    
+    #vertical-tab-2, #vertical-tab-3,#vertical-tab-4, #vertical-tab-1, #vertical-tab-0, .swap {
+        font-size: 24px !important; 
+        margin-bottom: 10px !important;
+        color: #cacaca;
+        font-weight: 700 !important;
+        max-width: none !important;
+        text-align: center;
+        
+    }
+    
+    
+    
+    
+    
+    
+    
+     .Mui-selected{
+        color: #339CEE !important;
+        opacity: 0.8;
+    }
+    
+    
+    .css-35zqo5-MuiTabs-root{
+        display: none !important;
+        
+    }
+    
+    .MuiBox-root{
+        background: transparent !important;
+    }
+    
+    .tab{
+        font-size: 20px;
+    }
+    
+    
+    
+    .button_close{
+        z-index: 1000;
+        transition: all 300ms ease-in-out;
+    
+    }
+    
+    .MuiTabs-indicator{
+        display: none;
+    }
+    
+    
+    .logo{
+        width: 150px;
+        margin: auto;
+        margin-bottom: 40px;
+    }
+    
+    
+    
+    #vertical-tabpanel-1, #vertical-tabpanel-2, #vertical-tabpanel-2, #vertical-tabpanel-3, #vertical-tabpanel-0{
+        width: 100% !important;
+    }
+    
+    @media (min-width:1224px){
+        
+    .css-35zqo5-MuiTabs-root{
+        display: block !important;
+        height: 100vh;
+        padding-top: 40px;
+        margin-top: -5rem;
+        width: 100%;
+        z-index: 10;
+    }
+
+    .socials{
+        
+        display: flex;
+        margin: auto;
+        gap:20px;
+        margin-top:0% !important;
+
+    }
+
+
+    
+    
+    .logo{
+        width: 120px !important;
+        margin: auto;
+        margin-bottom: 20px;
+        margin-top: 50px !important;
+    }
+    
+    .logo_text{
+        text-align: center;
+        color: #fff;
+        font-size: 22px;
+        margin-bottom: 40px;
+    }
+    
+    .left_navbar{
+        display: block !important;
+        height: 100vh;
+        position: static;   
+        margin-top: -5rem;
+        width: 20%;
+        z-index: 10;
+    }
+    
+    
+    .trui{
+        position: fixed;
+        border-right: 2px solid rgba(255,255,255,0.2) !important;
+        width:300px;
+        height: 100% !important;
+
+    
+    
+    }
+    
+    
+    .css-1cgx7kx-MuiTabs-scroller{
+        width: 100%;
+    }
+    
+
+    }
+
+
+    
+
+    @media(max-width:450px){
+        .mobile_logo{
+            display: none ;
+            
+        }
+
+        
+      .mobilelogoreplace{
+    display: block !important;
+     }
+
+        .mobilelogo_hide{
+            display: none !important;
+        }
+    }
+
+    @media(max-width:410px){
+        .disclose_logo img{
+            margin-left: 2px !important ;
+            
+        }
+    }
+
+
+.mobilelogoreplace{
+    display: none;
+}

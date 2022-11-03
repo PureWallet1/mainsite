@@ -1,0 +1,153 @@
+.swap_iframe {
+   border: 1px solid #339CEE !important;
+   margin: auto;
+   width: 500px;
+   margin-top: 65px !important;
+}
+
+.landing {
+   width: 700px;
+   background: rgba(255, 255, 255, 0.05);
+   margin: auto;
+   margin-top: 40px !important;
+   border-radius: 10px;
+}
+
+.stak_box {
+   padding: 40px 50px;
+}
+
+.stak_heading {
+   h2 {
+      text-align: left !important;
+      color: #fff;
+      font-size: 26px;
+      margin-bottom: 10px;
+      font-weight: bold;
+   }
+
+   p {
+      color: white;
+      font-family: 'Poppins';
+   }
+}
+
+.input1 {
+   position: relative;
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+
+.maxToken {
+   position: absolute;
+   top: 10px;
+   right: 10px;
+   font-weight: bold;
+   color: #fff;
+   cursor: pointer;
+   display: flex;
+   background-color: transparent !important;
+   align-items: center;
+
+}
+
+.swap-button {
+   background: linear-gradient(90deg, #5696D3 -8.05%, rgba(37, 81, 126, 0) 141.95%);
+   width: 176px;
+   cursor: pointer;
+   height: 37px;
+   color: white;
+   border-radius: 10px;
+}
+
+.stak_body {
+   margin-top: 30px
+}
+
+.switciconlogo {
+   text-align: center;
+   cursor: pointer;
+}
+
+.stak_body_footer {
+   color: white;
+   font-size: 20px;
+   margin-top: 20px;
+
+   .stack_value {
+      float: right;
+   }
+}
+
+.error-message {
+   color: white;
+   margin-top: 10px;
+   font-size: 20px;
+}
+
+input {
+   width: 100%;
+   height: 50px;
+   outline: none;
+   border: none;
+   padding-left: 20px;
+   background-color: #12151F !important;
+   font-size: 16px;
+   margin: 10px 0;
+   border-radius: 10px;
+
+}
+
+
+input,
+select,
+textarea {
+   color: white !important;
+}
+
+input:focus {
+   color: white !important;
+}
+
+.form-field {
+   width: 100%;
+}
+
+
+
+
+@media (max-width:600px) {
+   .swap_iframe {
+      border: 1px solid #339CEE !important;
+      margin: auto;
+      width: 95%;
+      margin-top: 65px !important;
+   }
+
+   input {
+     
+      background-color: #1E212A !important;
+
+   }
+   
+ 
+   .stak_box {
+      padding: 40px 20px;
+   }
+
+   .stak_heading {
+      margin-bottom: 40px;
+   }
+
+   .landing {
+      width: 100%;
+      margin-top: 0 !important;
+      padding-top: 20px;
+
+   }
+
+   .stak_body_footer p{
+      font-size: 16px !important;
+   }
+
+}

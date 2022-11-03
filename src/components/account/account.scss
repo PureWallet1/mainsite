@@ -1,0 +1,185 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+}
+.card_value_acc h2{
+    font-size: 1.5rem !important;
+}
+
+.block4{
+    justify-content: space-between;
+    border-radius: 10px;
+    margin-top: 1.3rem;
+    padding: 25px;
+
+}
+
+
+.account_info_block{
+    width: 98%;
+    margin: auto;
+    margin-top: 30px !important;
+}
+
+
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.slider{
+    padding-left: 3%;
+}
+
+.title_card h2{
+font-size: 1rem !important;
+color:rgba(113, 41, 216, 0.9);
+font-size: 1.2rem;
+line-height: 45px;
+}
+
+
+.value h2{
+font-size: 1.5rem ;
+color: #fff;
+
+
+}
+
+
+.block2{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px;
+}
+
+.block3{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px;
+}
+
+.inner_block3{
+width: 31.2%;
+border-radius: 10px;
+margin-left: 1%;
+background:#3C71A5 ;
+border:0.1px solid rgba(51, 156, 238, 0.15);
+margin-right: 1%;
+margin-top:1.3rem;
+padding: 20px;
+transition: all 0.3s ease-in-out;
+}
+
+.inner_block3:hover{
+    transform: scale(1.03);
+    background:#339CEE ;
+
+}
+
+
+
+#vertical-tabpanel-0{
+    width: 80%;
+}
+
+.dashboard-card{
+    text-align: center;
+
+
+    .card_title{
+        h2{
+            color: hsla(0,0%,100%,.6);
+            font-weight:500;
+            padding: 3px 0;
+        }
+    }
+
+    .makeStyles-root-1, .makeStyles-root-14{
+        width: 90% !important;
+        margin: auto !important;
+    
+        p{
+            color: #54F7CF;
+        }
+    }
+
+
+
+}
+
+
+@media (max-width:1224px) {
+    #vertical-tabpanel-0{
+        width: 100%;
+    }
+
+    .left_navbar{
+        display: none;
+    }
+    
+    .card_title h2{
+        font-size: 18px;
+    }
+
+  
+
+    .right_content{
+        width: 100% !important;
+    }
+
+    .inner_block1{
+        color: #fff;
+        width: 50%;
+        padding: 13px 0;
+    }
+}
+
+
+.right_content{
+    width: 80%;
+}
+
+
+.left_navbar{
+    width: 20%;
+}
+
+@media (max-width:600px){
+    .inner_block1{
+        color: #fff;
+        width: 100%;
+        padding: 13px 0;
+    }
+
+    .inner_block2{
+        width: 100%;
+    }
+
+    .inner_block3{
+        width: 100%;
+    }
+}
+
+
+@media(max-width:550px){
+    .value h2{
+        font-size: 1.0rem !important;
+        color: #fff;
+        
+        
+        }
+
+        .card_value{
+            h2{
+                font-size: 1.3rem;
+                font-weight: 700;
+            }
+        }
+}
