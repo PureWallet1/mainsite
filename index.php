@@ -53,7 +53,7 @@
                                             <li class="menu-item"><a class="menu-link nav-link" target="_blank" href="http://purewallet.exchange">Pure Exchange</a></li>
                                             <li class="menu-item"><a class="menu-link nav-link" target="_blank" href="http://stake.purewallet.finance">Pure Stake</a></li>
                                             <li class="menu-item"><a class="menu-link nav-link" target="_blank" href="http://swap.purewallet.finance">Pure Swap</a></li>
-                                            <li class="menu-item"><a class="menu-link nav-link" target="_blank" href="http://swap.purewallet.finance">Pure Profit Calculator</a></li>
+                                            <li class="menu-item"><a class="menu-link nav-link" target="_blank" href="http://calculator.purewallet.finance">Pure Profit Calculator</a></li>
                                         </ul>
                                     </li>
                                     <li class="menu-item has-sub">
