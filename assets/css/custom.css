@@ -253,3 +253,7 @@ a.wgs-logo img {
     padding: 10px;
     padding: 10px 23px;
 }
+
+.wgs.wgs-text p {
+    font-size: 13px;
+}
