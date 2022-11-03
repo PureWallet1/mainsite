@@ -1,0 +1,366 @@
+
+
+.navbar_outer{
+    height: 100px;
+    width: 100%;
+    background: rgba(255,255,255,0.05);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    
+}
+
+
+
+
+.logo_container{
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.logo_container h2{
+    font-size: 26px;
+}
+
+.connect_wallet_container{
+    margin-right: 50px;
+}
+
+.connect_wallet_container button{
+    font-weight: 500;
+}
+
+.logo{
+    width: 70px;
+}
+
+
+
+@media(max-width:500px){
+    .wallet{
+        padding: 8px 20px;
+        border-radius: 10px;
+        outline: none;
+        border:none;
+    }
+
+    .logo_container h2{
+        font-size: 18px;
+    }
+}
+
+
+.landing{
+    width: 700px;
+    background: rgba(255,255,255,0.05);
+    margin: auto;
+    margin-top: 40px !important;
+    border-radius: 10px;
+}
+
+.progressbar-container{
+    background:rgba(255,255,255,0.1);
+    border-radius: 50px;
+}
+
+
+.progressbar-container:before {
+    content: attr(data-label);
+    font-size: 0.8em;
+    vertical-align: 0;
+    font-size: 15px;
+    color: #fff;
+    padding-left: 10px;
+    /*Position text over the progress bar */
+    position:absolute;
+
+  }
+
+
+  .days{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+
+  }
+
+  .days button{
+        background-color: transparent;
+        border: 1px solid #339CEE;
+        color: #fff;
+        border-radius: 10px;
+        padding: 5px 20px;
+        transition: all 0.5s ease-out;
+        margin-top: 10px;
+    }
+
+.actived{
+    background: linear-gradient(to right, #5494D1 , #275380);
+    border: 1px solid linear-gradient(to right, #5494D1 , #275380);
+        color: #fff;
+        border-radius: 10px;
+        padding: 5px 20px;
+        transition: all 0.5s ease-out;
+}
+
+
+.error{
+    width: 100%;
+    text-align: center;
+    color: red;
+    background: rgba(0,0,0,0.2);
+    margin-top: 20px;
+    padding: 3px 5px;
+
+}
+
+  .days button:hover{
+    background: linear-gradient(to right, #5494D1 , #275380);
+    border: 1px solid linear-gradient(to right, #5494D1 , #275380);
+        color: #fff;
+        border-radius: 10px;
+        padding: 5px 20px;
+        transition: all 0.5s ease-out;
+
+
+  }
+
+
+.stak_box{
+    padding: 40px 50px;
+}
+
+
+.all_buttons{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 80%;
+    margin-top: 40px !important;
+    gap:10px;
+    margin: auto;
+}
+
+.progressbar-progress{
+    border-radius: 50px;
+}
+
+.text-blue{
+    color:#339CEE;
+    
+}
+.stak_info p{
+    font-size: 18px !important;
+}
+
+.all_buttons button{
+padding: 15px 20px;
+width: 45%;  
+}
+
+.stak_heading h2{
+    text-align: center;
+    color: #fff;
+    font-size: 26px;
+    margin-bottom: 50px;
+    font-weight: bold;
+}
+
+.stak_info p{
+    color: #fff;
+    font-size: 22px;
+}
+
+
+.stak_info{
+    margin-top:20px;
+}
+
+.inputs{
+    margin-top: 20px;
+}
+
+.inputbox label{
+font-size: 20px;
+color: #fff;
+}
+
+.inputbox input{
+   width: 100%;
+   height: 40px;
+   outline: none;
+   border: none;
+   padding-left: 20px;
+   font-size: 16px;
+   margin: 10px 0;
+   border-radius: 50px;
+
+}
+
+.inputbox{
+    margin-top: 10px !important;
+
+}
+    
+
+
+.input1{
+    position: relative;
+
+}
+
+.maxToken{
+    position: absolute;
+    top:10px;
+    right:0px;
+    font-weight: bold;
+    color: #fff;
+    padding: 8px 20px;
+    cursor: pointer;
+    display: flex;
+    background-color: #339CEE;
+    align-items: center;
+    border-radius: 0 50px 50px 0;
+   
+
+}
+
+.text-red{
+    color:#ff0000 !important;
+}
+
+.greenButton{
+    background-color: #339CEE !important;
+    border:1px solid rgba(255,255,255,0.3);
+    border-radius: 10px;
+    color:#fff;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.greenButton:hover{
+    background: linear-gradient(to right, #5494D1 , #275380);
+}
+
+
+.redbutton{
+ background-color: #DC143C;
+    border:1px solid rgba(255,255,255,0.3);
+    border-radius: 10px;
+    font-weight: bold;
+    color:#fff;
+    font-size: 16px;
+    cursor: pointer;
+    width: 92% !important;
+    transition: all 0.3s ease-in-out;
+    margin-top: 5px;
+    
+
+}
+
+.redbutton:hover{
+    background-color: #ff0000;
+}
+
+
+@media(max-width:763px){
+    .landing{
+        width: 100%;
+        margin-top: 0 !important;
+        padding-top: 20px;
+        
+    }
+
+    .stak_heading{
+        margin-bottom: 40px;
+    }
+
+    .logo_container{
+        margin-left: 10px;
+    }
+
+    .connect_wallet_container{
+        margin-right: 10px;
+
+    }
+}
+
+
+@media(max-width:500px){
+    
+.all_buttons{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 40px !important;
+    gap:10px;
+    margin: auto;
+}
+
+
+.all_buttons button{
+    padding: 10px 10px;
+    width: 48%;  
+    }
+
+    .stak_info p {
+        font-size: 20px;
+    }
+    
+
+    .landing{
+        background-color: transparent !important;
+    }
+
+    .days button{
+        padding: 5px 8px;
+    }
+
+}
+
+
+
+
+@media(max-width:450px){
+    .all_buttons button{
+        padding: 10px 0px;
+        width: 45%;  
+        }
+
+        .stak_box{
+            padding: 40px 0px;
+        }
+
+        .logo_container h2{
+            display: none;
+        }
+        
+        .logo_container{
+            margin-left: 20px;
+        }
+
+        
+    .connect_wallet_container{
+        margin-right: 20px;
+
+    }
+
+    .all_buttons{
+        width: 90%;
+    }
+
+    .landing{
+        width: 100% !important;
+    }
+    .stak_info p {
+        font-size: 18px;
+    }
+}

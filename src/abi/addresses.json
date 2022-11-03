@@ -1,0 +1,7 @@
+{
+    "rpcUrl": "https://bsc-dataseed1.defibit.io/",
+    "token": "0xC257Ee8ca00310727B02B07D0CbB11C5672e172a",
+    "router": "0x10ED43C718714eb63d5aA57B78B54704E256024E",
+    "wbnb": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
+    "busd": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56"
+}
