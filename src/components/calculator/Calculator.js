@@ -36,7 +36,7 @@ const Calculator = () => {
     else if (name === "futurePrice") setFuturePrice(value);
   }
 
-  finalTokens = ((tokenAmount * apy *  days) / 100 * 365) + (tokenAmount)
+  finalTokens = parseFloat(((parseFloat(tokenAmount) * parseFloat(apy) *  parseFloat(days)) / (100 * 365)) + parseFloat(tokenAmount))
 
   async function getPrice(){
     let rpcUrl = "https://bsc-dataseed1.defibit.io/";
@@ -198,7 +198,7 @@ const Calculator = () => {
             </div>
 
             <div className='value value_calculator'>
-            <h2>{(finalTokens - tokenAmount).toFixed(3)} Token</h2>
+            <h2>{(finalTokens - tokenAmount).toFixed(2)} Token</h2>
             </div>
           </div>
 

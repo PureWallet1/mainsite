@@ -169,7 +169,7 @@ const Dash = () => {
             <h2>Circulating Supply</h2>
             </div>
             <div className="card_value">
-             <h2>{parseFloat((0.8636 * totalSupply).toFixed(2)).toLocaleString()}</h2>
+             <h2>{parseFloat((totalSupply).toFixed(2)).toLocaleString()}</h2>
             </div>
           </div>
         </div>
