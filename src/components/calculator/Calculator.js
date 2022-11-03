@@ -133,7 +133,7 @@ const Calculator = () => {
 
         <div className='input_inner'>
             <div className='title_input'>
-                <h2 className='input_title'>APY (%)</h2>
+                <h2 className='input_title'>APY(%)</h2>
             </div>
             <div className='inputbox'>
             <input type="number" placeholder='500' className='input_main' name= "apy" onChange={handleChange} value={apy}  max="1200" min="400"/>
