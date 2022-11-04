@@ -264,19 +264,25 @@ export default function Navbar(props) {
                 aria-label="Vertical tabs example"
                 sx={{ borderRight: 1, borderColor: 'divider', fontSize: '100px' }}
               >
+     <Tab label={<div className="icon_nav"><Ai.AiFillCalculator className='icon_nav_main' /> Calculator</div>}
+                  onClick={() => {
+                    const close = document.getElementById('headlessui-disclosure-button-1')
+                    close.click();
+                    setSwap(true)
+                  }} {...a11yProps(0)} />
 
                 <Tab label={<div className="icon_nav"><Ai.AiFillDashboard className='icon_nav_main' /> Dashboard</div>} onClick={() => {
                   const close = document.getElementById('headlessui-disclosure-button-1')
                   close.click();
                   setSwap(true)
                 }}
-                  {...a11yProps(0)} />
+                  {...a11yProps(1)} />
                 <Tab label={<div className="icon_nav"><Ai.AiFillAccountBook className='icon_nav_main' /> Account</div>}
                   onClick={() => {
                     const close = document.getElementById('headlessui-disclosure-button-1')
                     close.click();
                     setSwap(true)
-                  }} {...a11yProps(1)} />
+                  }} {...a11yProps(2)} />
 
 
 
@@ -289,12 +295,7 @@ export default function Navbar(props) {
                   setSwap(true)
                 }} {...a11yProps(4)} />
 
-                <Tab label={<div className="icon_nav"><Ai.AiFillCalculator className='icon_nav_main' /> Calculator</div>}
-                  onClick={() => {
-                    const close = document.getElementById('headlessui-disclosure-button-1')
-                    close.click();
-                    setSwap(true)
-                  }} {...a11yProps(5)} />
+           
 
 
                 <div className='icon_nav extra_task' onClick={() => {
@@ -339,11 +340,11 @@ export default function Navbar(props) {
                     aria-label="Vertical tabs example"
                     sx={{ borderRight: 1, borderColor: 'divider' }}
                   >
+                    <Tab label={<div className="icon_nav"><Ai.AiFillAccountBook className='icon_nav_main' /> Calculator</div>}{...a11yProps(0)} onClick={() => { setSwap(true) }} />
 
-                    <Tab label={<div className="icon_nav"><Ai.AiFillDashboard className='icon_nav_main' /> Dashboard</div>} {...a11yProps(0)} onClick={() => { setSwap(true) }} />
-                    <Tab label={<div className="icon_nav"><Ai.AiFillAccountBook className='icon_nav_main' /> Account</div>}  {...a11yProps(1)} onClick={() => { setSwap(true) }} />
-                    <Tab label={<div className="icon_nav"><Ai.AiFillThunderbolt className='icon_nav_main' /> Stake</div>}  {...a11yProps(4)} onClick={() => { setSwap(true) }} />
-                    <Tab label={<div className="icon_nav"><Ai.AiFillAccountBook className='icon_nav_main' /> Calculator</div>}{...a11yProps(5)} onClick={() => { setSwap(true) }} />
+                    <Tab label={<div className="icon_nav"><Ai.AiFillDashboard className='icon_nav_main' /> Dashboard</div>} {...a11yProps(1)} onClick={() => { setSwap(true) }} />
+                    <Tab label={<div className="icon_nav"><Ai.AiFillAccountBook className='icon_nav_main' /> Account</div>}  {...a11yProps(2)} onClick={() => { setSwap(true) }} />
+                    <Tab label={<div className="icon_nav"><Ai.AiFillThunderbolt className='icon_nav_main' /> Stake</div>}  {...a11yProps(3)} onClick={() => { setSwap(true) }} />
                     <a href={websiteUrl} target="_blank"><div className='icon_nav extra_task'><Ai.AiOutlineGlobal className='icon_nav_main ' /><h2 className='swap swap_size'>Website</h2></div></a>
                     <div className='socials'>
                       <a href="https://t.me/PureWalletOfficial"> <FaTelegram className='social_icon' /></a>
@@ -361,22 +362,20 @@ export default function Navbar(props) {
             </div>
             {swapis ?
               <div className='right_content'>
-                <TabPanel value={value} index={0}>
-                  <Dash />
+                           <TabPanel value={value} index={0}>
+                  <Calculator />
                 </TabPanel>
                 <TabPanel value={value} index={1}>
+                  <Dash />
+                </TabPanel>
+                <TabPanel value={value} index={2}>
                   <Account />
                 </TabPanel>
 
-                <TabPanel value={value} index={2}>
+                <TabPanel value={value} index={3}>
                   <Stake />
                 </TabPanel>
-                <TabPanel value={value} index={3}>
-                  <Calculator />
-                </TabPanel>
-                <TabPanel value={value} index={4}>
-                  <Calculator />
-                </TabPanel>
+    
 
               </div> : <Swap chainId={chainid} provider={_provider} useraddress={walletAddress} />}
 
