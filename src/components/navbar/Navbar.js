@@ -112,7 +112,7 @@ export default function Navbar(props) {
 
 
   const [value, setValue] = React.useState(0);
-  const [swapis, setSwap] = React.useState(false);
+  const [swapis, setSwap] = React.useState(true);
   const [chainid, setChainid] = React.useState();
 
   React.useEffect(() => {
