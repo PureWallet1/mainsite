@@ -437,7 +437,7 @@
                             <div class="col-lg-6 col-sm-12">
                                 
                                 <div class="tx-info">
-                                    <h4 class="title title-md mb-2 text-sm-center">Buy Tax: 6%</h4>
+                                    <h4 class="title title-md mb-2 text-sm-center">Sell Tax: 6%</h4>
                                     <table class="table table-s1 table-token">
                                         <tbody>
                                             <tr>
