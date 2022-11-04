@@ -9,9 +9,9 @@ import {provider, setProvider, signer, setSigner} from '../../App';
 
 
 const Stake = () => {
-  let [poolId, setPoolId] = React.useState(0);
-  let [APR, setApr] = React.useState(0);
-  let [TEMPAPR, setTEMPAPR] = React.useState(256);
+  let [poolId, setPoolId] = React.useState(4);
+  let [APR, setApr] = React.useState(4);
+  let [TEMPAPR, setTEMPAPR] = React.useState(1095);
   let [poolInfo, setPoolInfo] = React.useState([]);
   const [error, setError] = React.useState();
   let [userInfo, setUserInfo] = React.useState([]);
@@ -28,7 +28,7 @@ const Stake = () => {
   let _signer = React.useContext (signer);
   let _setSigner = React.useContext (setSigner);
 
-  const [active, setActive] = React.useState("0");
+  const [active, setActive] = React.useState("4");
 
   const handleClick = (event) => {
     setActive(event.target.id);
