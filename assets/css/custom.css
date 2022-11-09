@@ -257,3 +257,8 @@ a.wgs-logo img {
 .wgs.wgs-text p {
     font-size: 13px;
 }
+
+.partner-logo img {
+    max-height: 67px;
+    margin: 0 10px;
+}

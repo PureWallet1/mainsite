@@ -237,17 +237,10 @@
                     <div class="nk-block block-partners">
                         <h6 class="title title-xs title-light text-center">Partner And Friends</h6>
                         <ul class="partner-list flex-lg-nowrap scroll1">
-                            <li class="partner-logo"><img src="images/partners/1-A-ads.png" alt="A-ads"></li>
-                            <li class="partner-logo"><img src="images/partners/2-coinzilla.png" alt="coinzilla"></li>
                             <li class="partner-logo"><a href="https://bscscan.com/token/0xc3BcE47886e56316B2A5A4b2C926561AE94039A2" target="_blank"><img src="images/partners/3-bscscan.png" alt="bscscan"></a></li>
                             <li class="partner-logo"><a href="https://poocoin.app/tokens/0xc3bce47886e56316b2a5a4b2c926561ae94039a2" target="_blank"><img src="images/partners/4-poocoin.png" alt="poocoin"></a></li>
                             <li class="partner-logo"><a href="https://pancakeswap.finance/swap?outputCurrency=0xc3BcE47886e56316B2A5A4b2C926561AE94039A2" target="_blank"><img src="images/partners/5-pancake-swap.png" alt="pancake-swap"></a></li>
                             <li class="partner-logo"><a href="https://www.pinksale.finance/launchpad/0x22c52aB855Bafb1c3F24CeF02cf966Ae26979827?chain=BSC" target="_blank"><img src="images/partners/6-pinksale.png" alt="pinksale"></a></li>
-                            <li class="partner-logo"><img src="images/partners/8-worldcoin-index.png" alt="worldcoin-index"></li>
-                            <li class="partner-logo"><img src="images/partners/9-coinmarket cap.png" alt="coinmarket cap"></li>
-                            <li class="partner-logo"><img src="images/partners/10-coin-gecho.png" alt="coin-gecho"></li>
-                            <li class="partner-logo"><img src="images/partners/17-metamask.png" alt="metamask"></li>
-                            <li class="partner-logo"><img src="images/partners/21-trust-wallet.png" alt="trust-wallet"></li>
                             <li class="partner-logo"><a href="https://www.dextools.io/app/en/bnb/pair-explorer/0xc21a1a874cb9c5c6492fd3c2d790f7d2e3f15843" target="_blank"><img src="images/partners/22 Desktools.png" alt="Desktools"></a></li>
                         </ul>
                     </div>
@@ -690,7 +683,7 @@
                         <div class="row align-items-center">
                             <div class="col-lg-7 order-lg-last">
                                 <div class="nk-block-img edge-r1 pb-4 pb-lg-0">
-                                    <img src="images/app-screens/laptop-a.png" alt="app">
+                                    <img src="assets/img/laptop.png" alt="app">
 
                                     <a href="https://purewallet.exchange" class="btn btn-grad" target="_blank">PURE EXCHANGE</a>
                                 </div>
@@ -807,28 +800,18 @@
                     <div class="nk-block block-partners">
                         <h6 class="title title-xs title-light text-center">AS SEEN IN</h6>
                         <ul class="partner-list flex-lg-nowrap scroll1">
-                            <li class="partner-logo"><img src="https://cdn.shopify.com/s/files/1/0388/4833/1916/files/hd-nasdaq_300x100.png?v=1646404931" alt="asseenin"></li>
-                            <li class="partner-logo"><img src="https://cdn.shopify.com/s/files/1/0388/4833/1916/files/hd-cnbc_300x100.png?v=1646404932" alt="asseenin"></li>
-                            <li class="partner-logo"><img src="https://cdn.shopify.com/s/files/1/0388/4833/1916/files/hd-new-york-post_300x100.png?v=1646404932" alt="asseenin"></li>
-                            <li class="partner-logo"><img src="https://cdn.shopify.com/s/files/1/0388/4833/1916/files/hd-business-insider_300x100.png?v=1646404932" alt="asseenin"></li>
-                            <li class="partner-logo"><img src="https://cdn.shopify.com/s/files/1/0388/4833/1916/files/hd-yahoo_300x100.png?v=1646404931" alt="asseenin"></li>
-                            <li class="partner-logo"><img src="https://cdn.shopify.com/s/files/1/0388/4833/1916/files/hd-newsweek_300x100.png?v=1646404932" alt="asseenin"></li>
-                            <li class="partner-logo"><img src="https://cdn.shopify.com/s/files/1/0388/4833/1916/files/hd-benzinga_300x100.png?v=1646404931" alt="asseenin"></li>
-                            <li class="partner-logo"><img src="https://cdn.shopify.com/s/files/1/0388/4833/1916/files/hd-market-watch_300x100.png?v=1646404931" alt="asseenin"></li>
-                            <li class="partner-logo"><img src="https://cdn.shopify.com/s/files/1/0388/4833/1916/files/hd-nasdaq_300x100.png?v=1646404931" alt="asseenin"></li>
-                            <li class="partner-logo"><img src="https://cdn.shopify.com/s/files/1/0388/4833/1916/files/hd-cnbc_300x100.png?v=1646404932" alt="asseenin"></li>
-                            <li class="partner-logo"><img src="https://cdn.shopify.com/s/files/1/0388/4833/1916/files/hd-new-york-post_300x100.png?v=1646404932" alt="asseenin"></li>
-                            <li class="partner-logo"><img src="https://cdn.shopify.com/s/files/1/0388/4833/1916/files/hd-business-insider_300x100.png?v=1646404932" alt="asseenin"></li>
-                            <li class="partner-logo"><img src="https://cdn.shopify.com/s/files/1/0388/4833/1916/files/hd-yahoo_300x100.png?v=1646404931" alt="asseenin"></li>
-                            <li class="partner-logo"><img src="https://cdn.shopify.com/s/files/1/0388/4833/1916/files/hd-newsweek_300x100.png?v=1646404932" alt="asseenin"></li>
-                            <li class="partner-logo"><img src="https://cdn.shopify.com/s/files/1/0388/4833/1916/files/hd-benzinga_300x100.png?v=1646404931" alt="asseenin"></li>
-                            <li class="partner-logo"><img src="https://cdn.shopify.com/s/files/1/0388/4833/1916/files/hd-market-watch_300x100.png?v=1646404931" alt="asseenin"></li>
-                            <li class="partner-logo"><img src="https://cdn.shopify.com/s/files/1/0388/4833/1916/files/hd-nasdaq_300x100.png?v=1646404931" alt="asseenin"></li>
-                            <li class="partner-logo"><img src="https://cdn.shopify.com/s/files/1/0388/4833/1916/files/hd-cnbc_300x100.png?v=1646404932" alt="asseenin"></li>
-                            <li class="partner-logo"><img src="https://cdn.shopify.com/s/files/1/0388/4833/1916/files/hd-new-york-post_300x100.png?v=1646404932" alt="asseenin"></li>
-                            <li class="partner-logo"><img src="https://cdn.shopify.com/s/files/1/0388/4833/1916/files/hd-business-insider_300x100.png?v=1646404932" alt="asseenin"></li>
-                            <li class="partner-logo"><img src="https://cdn.shopify.com/s/files/1/0388/4833/1916/files/hd-yahoo_300x100.png?v=1646404931" alt="asseenin"></li>
-                            <li class="partner-logo"><img src="https://cdn.shopify.com/s/files/1/0388/4833/1916/files/hd-newsweek_300x100.png?v=1646404932" alt="asseenin"></li>
+
+                            <li class="partner-logo"><a href="https://finance.yahoo.com/news/pure-wallet-launches-exclusive-pre-224600446.html?.tsrc=fin-srch&guccounter=1"><img src="https://cdn.shopify.com/s/files/1/0388/4833/1916/files/hd-yahoo_300x100.png?v=1646404931" alt="asseenin"></a></li>
+
+                            <li class="partner-logo"><a href="https://www.benzinga.com/amp/content/29536298"><img src="https://cdn.shopify.com/s/files/1/0388/4833/1916/files/hd-benzinga_300x100.png?v=1646404931" alt="asseenin"></a></li>
+
+                            <li class="partner-logo"><a href="https://www.marketwatch.com/press-release/pure-wallet-launches-its-exclusive-pre-sale-with-multiple-crypto-trading-features-2022-11-02?mod=search_headline"><img src="https://cdn.shopify.com/s/files/1/0388/4833/1916/files/hd-market-watch_300x100.png?v=1646404931" alt="asseenin"></a></li>
+
+                            <li class="partner-logo"><a href="https://www.morningstar.com/news/globe-newswire/8688081/pure-wallet-launches-its-exclusive-pre-sale-with-multiple-crypto-trading-features"><img src="https://www.morningstar.com/assets/img/morningstar-50px.d304f16.svg" alt="asseenin"></a></li>
+
+                            <li class="partner-logo"><a href="https://news.yahoo.com/news/pure-wallet-launches-exclusive-pre-224600446.html?guccounter=1"><img src="https://s.yimg.com/rz/stage/p/yahoo_news_en-US_h_p_newsv2.png" alt="asseenin"></a></li>
+
+                            <li class="partner-logo"><a href="https://money.yahoo.com/news/pure-wallet-launches-exclusive-pre-224600446.html"><img src="https://s.yimg.com/rz/p/yahoo_money_en-US_h_p_money.png" alt="asseenin"></a></li>
                         </ul>
                     </div>
                     <!-- Block @e -->
