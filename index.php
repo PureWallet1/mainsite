@@ -69,7 +69,7 @@
                                     <li class="menu-item"><a class="menu-link nav-link" href="#tokensale">Tokenomics</a></li>
                                 </ul>
                                 <ul class="menu-btns">
-                                    <li><a href="https://www.pinksale.finance/launchpad/0x5e04c865c34166fcfbad2a22e3f07bd597c37baa?chain=BSC" target="_blank" class="btn btn-md btn-auto btn-grad no-change"><span>BUY $PURE</span></a></li>
+                                    <li><a href="https://www.pinksale.finance/launchpad/0x2a34040aea4587312b209ecd88507e0b4a832266?chain=BSC" target="_blank" class="btn btn-md btn-auto btn-grad no-change"><span>BUY $PURE</span></a></li>
                                 </ul>
                             </nav>
                         </div><!-- .header-navbar @e -->
@@ -240,7 +240,7 @@
                             <li class="partner-logo"><a href="https://bscscan.com/token/0xc3BcE47886e56316B2A5A4b2C926561AE94039A2" target="_blank"><img src="images/partners/3-bscscan.png" alt="bscscan"></a></li>
                             <li class="partner-logo"><a href="https://poocoin.app/tokens/0xc3bce47886e56316b2a5a4b2c926561ae94039a2" target="_blank"><img src="images/partners/4-poocoin.png" alt="poocoin"></a></li>
                             <li class="partner-logo"><a href="https://pancakeswap.finance/swap?outputCurrency=0xc3BcE47886e56316B2A5A4b2C926561AE94039A2" target="_blank"><img src="images/partners/5-pancake-swap.png" alt="pancake-swap"></a></li>
-                            <li class="partner-logo"><a href="https://www.pinksale.finance/launchpad/0x5e04c865c34166fcfbad2a22e3f07bd597c37baa?chain=BSC" target="_blank"><img src="images/partners/6-pinksale.png" alt="pinksale"></a></li>
+                            <li class="partner-logo"><a href="https://www.pinksale.finance/launchpad/0x2a34040aea4587312b209ecd88507e0b4a832266?chain=BSC" target="_blank"><img src="images/partners/6-pinksale.png" alt="pinksale"></a></li>
                             <li class="partner-logo"><a href="https://www.dextools.io/app/en/bnb/pair-explorer/0xc21a1a874cb9c5c6492fd3c2d790f7d2e3f15843" target="_blank"><img src="images/partners/22 Desktools.png" alt="Desktools"></a></li>
                         </ul>
                     </div>
@@ -831,7 +831,7 @@
                                     <div class="wgs-body">
                                         <ul class="wgs-links">
                                             <li><a href="https://bscscan.com/address/0xc3BcE47886e56316B2A5A4b2C926561AE94039A2" target="_blank">BSC Scan</a></li>
-                                            <li><a href="https://www.pinksale.finance/launchpad/0x5e04c865c34166fcfbad2a22e3f07bd597c37baa?chain=BSC" target="_blank">Buy $PURE</a></li>
+                                            <li><a href="https://www.pinksale.finance/launchpad/0x2a34040aea4587312b209ecd88507e0b4a832266?chain=BSC" target="_blank">Buy $PURE</a></li>
                                             <li><a href="https://poocoin.app/tokens/0xc3bce47886e56316b2a5a4b2c926561ae94039a2" target="_blank">Poocoin</a></li>
                                             <li><a href="https://www.dextools.io/app/en/bnb/pair-explorer/0xc21a1a874cb9c5c6492fd3c2d790f7d2e3f15843" target="_blank">Dextools</a></li>
                                             <li><a href="https://pancakeswap.finance/swap?outputCurrency=0xc3BcE47886e56316B2A5A4b2C926561AE94039A2" target="_blank">Pancakeswap</a></li>
