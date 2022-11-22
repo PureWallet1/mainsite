@@ -11,7 +11,6 @@ import {provider, setProvider, signer, setSigner} from '../../App';
 const Stake = () => {
   let [poolId, setPoolId] = React.useState(4);
   let [APR, setApr] = React.useState(4);
-  let [TEMPAPR, setTEMPAPR] = React.useState(1095);
   let [poolInfo, setPoolInfo] = React.useState([]);
   const [error, setError] = React.useState();
   let [userInfo, setUserInfo] = React.useState([]);
@@ -76,7 +75,8 @@ const Stake = () => {
       const poolDays = _poolInfo[7]
       console.log(`reward` + reward + `reward`  + letcurrentPoolSize + `reward` + poolDays)
       setApr(parseInt((reward * 365 * 100) / (letcurrentPoolSize * poolDays)))
-
+      console.log(``+parseInt((reward * 365 * 100) / (letcurrentPoolSize * poolDays)))
+    
 
 
 
@@ -287,19 +287,19 @@ const Stake = () => {
                 <h2>STAKE YOUR TOKEN</h2>
             </div>
             <div className="days">
-            <button className={active === "0" ? "actived" : ""}  id="0"  onClick={(e) => {setPoolId(0); handleClick(e); setTEMPAPR(256)}  }>
+            <button className={active === "0" ? "actived" : ""}  id="0"  onClick={(e) => {setPoolId(0); handleClick(e);}  }>
               7 Days
             </button>
-            <button className={active === "1" ? "actived" : ""} id="1" onClick={(e) => {setPoolId(1); handleClick(e); setTEMPAPR(292)}}>
+            <button className={active === "1" ? "actived" : ""} id="1" onClick={(e) => {setPoolId(1); handleClick(e); }}>
               30 Days
             </button>
-            <button className={active === "2" ? "actived" : ""} id="2" onClick={(e) => {setPoolId(2); handleClick(e); setTEMPAPR(347)}} >
+            <button className={active === "2" ? "actived" : ""} id="2" onClick={(e) => {setPoolId(2); handleClick(e);}} >
               90 Days
             </button>
-            <button className={active === "3" ? "actived" : ""} id="3" onClick={(e) => {setPoolId(3); handleClick(e); setTEMPAPR(548)}}>
+            <button className={active === "3" ? "actived" : ""} id="3" onClick={(e) => {setPoolId(3); handleClick(e); }}>
               180 Days
             </button>
-            <button className={active === "4" ? "actived" : ""} id="4" onClick={(e) => {setPoolId(4); handleClick(e); setTEMPAPR(1095)}}>
+            <button className={active === "4" ? "actived" : ""} id="4" onClick={(e) => {setPoolId(4); handleClick(e);}}>
               365 Days
             </button>
           </div>
@@ -308,7 +308,7 @@ const Stake = () => {
             </div>
             {/* <Timer /> */}
             <div className='stak_info'>
-            <p>Estimated APY : <span className='text-blue'>{TEMPAPR + `%`}</span></p>
+            <p>Estimated APY : <span className='text-blue'>{APR + `%`}</span></p>
             <p>My Balance : <span className='text-blue'>{balance}</span> </p>
             <p>My Staked Balance :  <span className='text-blue'>{stakingBalance}</span></p>
             </div>  
